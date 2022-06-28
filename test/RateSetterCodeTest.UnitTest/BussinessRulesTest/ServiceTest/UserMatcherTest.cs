@@ -8,47 +8,47 @@ namespace RateSetterCodeTest.UnitTest.BussinessRulesTest.ServiceTest
         private readonly UserMatcher _matcher = new();
 
         [Fact]
-        public void GivenNewUserAddress_WhenCheckingWithExistingUserAddressAndUserName_ThenItShouldReturnFalse()
+        public void GivenNewUserAddress_WhenCheckingWithExistingUserAddressAndUserName_ThenItShouldReturnTrue()
         {
             var newUser = GivenSampleNewUserHaveSameAddressAndName();
             var existingUser = GivenSampleExistingUser();
 
             var result = _matcher.IsMatch(newUser, existingUser);
 
-            Assert.False(result);
+            Assert.True(result);
         }
 
         [Fact]
-        public void GivenNewUserLocation_WhenCheckingWithExistingUserWhoLiveNearby_ThenItShouldReturnFalse()
+        public void GivenNewUserLocation_WhenCheckingWithExistingUserWhoLiveNearby_ThenItShouldReturnTrue()
         {
             var newUser = GivenSampleNewUserHaveLocationNearby();
             var existingUser = GivenSampleExistingUser();
 
             var result = _matcher.IsMatch(newUser, existingUser);
 
-            Assert.False(result);
+            Assert.True(result);
         }
 
         [Fact]
-        public void GivenNewUserReferralCode_WhenCheckingWithExistingUserReferralCodeThatNotMatch_ThenItShouldReturnFalse()
+        public void GivenNewUserReferralCode_WhenCheckingWithExistingUserReferralCodeThatNotMatch_ThenItShouldReturnTrue()
         {
             var newUser = GivenSampleNewUserHaveReferralCodeNotMatch();
             var existingUser = GivenSampleExistingUser();
 
             var result = _matcher.IsMatch(newUser, existingUser);
 
-            Assert.False(result);
+            Assert.True(result);
         }
 
         [Fact]
-        public void GivenNewUserReferralCode_WhenCheckingWithExistingUser_ThenItShouldReturnTrue()
+        public void GivenNewUserReferralCode_WhenCheckingWithExistingUser_ThenItShouldReturnFalse()
         {
             var newUser = GivenSampleNewUser();
             var existingUser = GivenSampleExistingUser();
 
             var result = _matcher.IsMatch(newUser, existingUser);
 
-            Assert.True(result);
+            Assert.False(result);
         }
 
         private User GivenSampleExistingUser()

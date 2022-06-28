@@ -10,15 +10,14 @@ namespace RateSetterCodeTest.Services
         public bool IsMatch(User newUser, User existingUser)
         {
             bool distanceRule = NewUserDoesNotLiveNearExistingUserRule.IsTrue(newUser.Address, existingUser.Address);
-            if (distanceRule is false) return false;
+            if (distanceRule is false) return true;
 
-            bool isMatchAddress = NewUserAddressDoesNotMatchExistingUserAddressRule.IsTrue(newUser.Address, existingUser.Address);
-            if (newUser.Name == existingUser.Name && isMatchAddress is false) return false;
+            bool addressRule = NewUserAddressDoesNotMatchExistingUserAddressRule.IsTrue(newUser.Address, existingUser.Address);
+            if (newUser.Name == existingUser.Name && addressRule is false) return true;
 
-            bool isMatchReferralCode = NewUserReferralCodeMustMatchExistingUserCodeRule.IsTrue(newUser.ReferralCode, existingUser.ReferralCode);
-            if(isMatchReferralCode is false) return false;
-
-            return true;
+            bool referralCodeRule = NewUserReferralCodeMustMatchExistingUserCodeRule.IsTrue(newUser.ReferralCode, existingUser.ReferralCode);
+            if (referralCodeRule is false) return true;
+            else return false;
         }
     }
 

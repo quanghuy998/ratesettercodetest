@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\huy.huynhducquang\\source\\repos\\RateSetterCodeTest\\test\\RateSetterCodeTest.UnitTest\\RateSetterCodeTest.UnitTest.csproj": {}
+    "C:\\Users\\ADMIN\\OneDrive - Orient Software Development Corporation\\Desktop\\New folder\\ratesettercodetest\\test\\RateSetterCodeTest.UnitTest\\RateSetterCodeTest.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\huy.huynhducquang\\source\\repos\\RateSetterCodeTest\\RateSetterCodeTest\\RateSetterCodeTest.csproj": {
+    "C:\\Users\\ADMIN\\OneDrive - Orient Software Development Corporation\\Desktop\\New folder\\ratesettercodetest\\RateSetterCodeTest\\RateSetterCodeTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huy.huynhducquang\\source\\repos\\RateSetterCodeTest\\RateSetterCodeTest\\RateSetterCodeTest.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive - Orient Software Development Corporation\\Desktop\\New folder\\ratesettercodetest\\RateSetterCodeTest\\RateSetterCodeTest.csproj",
         "projectName": "RateSetterCodeTest",
-        "projectPath": "C:\\Users\\huy.huynhducquang\\source\\repos\\RateSetterCodeTest\\RateSetterCodeTest\\RateSetterCodeTest.csproj",
-        "packagesPath": "C:\\Users\\huy.huynhducquang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huy.huynhducquang\\source\\repos\\RateSetterCodeTest\\RateSetterCodeTest\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\OneDrive - Orient Software Development Corporation\\Desktop\\New folder\\ratesettercodetest\\RateSetterCodeTest\\RateSetterCodeTest.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\OneDrive - Orient Software Development Corporation\\Desktop\\New folder\\ratesettercodetest\\RateSetterCodeTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\huy.huynhducquang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,21 +63,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\huy.huynhducquang\\source\\repos\\RateSetterCodeTest\\test\\RateSetterCodeTest.UnitTest\\RateSetterCodeTest.UnitTest.csproj": {
+    "C:\\Users\\ADMIN\\OneDrive - Orient Software Development Corporation\\Desktop\\New folder\\ratesettercodetest\\test\\RateSetterCodeTest.UnitTest\\RateSetterCodeTest.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huy.huynhducquang\\source\\repos\\RateSetterCodeTest\\test\\RateSetterCodeTest.UnitTest\\RateSetterCodeTest.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive - Orient Software Development Corporation\\Desktop\\New folder\\ratesettercodetest\\test\\RateSetterCodeTest.UnitTest\\RateSetterCodeTest.UnitTest.csproj",
         "projectName": "RateSetterCodeTest.UnitTest",
-        "projectPath": "C:\\Users\\huy.huynhducquang\\source\\repos\\RateSetterCodeTest\\test\\RateSetterCodeTest.UnitTest\\RateSetterCodeTest.UnitTest.csproj",
-        "packagesPath": "C:\\Users\\huy.huynhducquang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huy.huynhducquang\\source\\repos\\RateSetterCodeTest\\test\\RateSetterCodeTest.UnitTest\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\OneDrive - Orient Software Development Corporation\\Desktop\\New folder\\ratesettercodetest\\test\\RateSetterCodeTest.UnitTest\\RateSetterCodeTest.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\OneDrive - Orient Software Development Corporation\\Desktop\\New folder\\ratesettercodetest\\test\\RateSetterCodeTest.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\huy.huynhducquang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\huy.huynhducquang\\source\\repos\\RateSetterCodeTest\\RateSetterCodeTest\\RateSetterCodeTest.csproj": {
-                "projectPath": "C:\\Users\\huy.huynhducquang\\source\\repos\\RateSetterCodeTest\\RateSetterCodeTest\\RateSetterCodeTest.csproj"
+              "C:\\Users\\ADMIN\\OneDrive - Orient Software Development Corporation\\Desktop\\New folder\\ratesettercodetest\\RateSetterCodeTest\\RateSetterCodeTest.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\OneDrive - Orient Software Development Corporation\\Desktop\\New folder\\ratesettercodetest\\RateSetterCodeTest\\RateSetterCodeTest.csproj"
               }
             }
           }
@@ -143,7 +143,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
